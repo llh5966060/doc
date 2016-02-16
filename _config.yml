@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 国美无线前端
-subtitle: 文档集中地
+title: gomefe
+
 description: 存放规范、教程、分享、demo
 author: gomefe
 language: zh-CN
@@ -63,11 +63,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: phase
+theme: freemind
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: 
+deploy:
   type: git
   repo:
-    github: git@github.com:gomefe/gomefe.github.io.git,gh-pages
+    github: git@github.com:gomefe/gomefe.github.io.git,master
