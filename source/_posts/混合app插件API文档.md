@@ -10,20 +10,27 @@ categories: 混合app
 ## plugins
 
 ### gome-app-nativeLogin
-#### methods
-##### navigator.gome.app.nativeLogin.jumpToNativeLogin
-##### navigator.gome.app.nativeLogin.jumpToNativeLogout
 
+| 方法 | 参数 | 回调参数 |
+| ------- | ------- | --- |
+|navigator.gome.app.nativeLogin.jumpToNativeLogin(success, fail)|success{function}; fail{function}|json字符串如:'{"jumpToNativeLogin":"Y"}'|
+|navigator.gome.app.nativeLogin.jumpToNativeLogout(success, fail)|success{function}; fail{function}|json字符串如:'{"jumpToNativeLogout":"Y"}'|
+<br>
 ### gome-util-nativeRequest
 
-#### navigator.gome.util.nativeRequest.sendNativeRequest
-
-#### navigator.gome.util.nativeRequest.sendNativeLayoutRequest
-
+| 方法 | 参数 | 回调参数 |
+| ------- | ------- | --- |
+|navigator.gome.util.nativeRequest.sendNativeRequest(success, fail, args)|success{function}; fail{function}; args{object}|html字符串|
+|navigator.gome.util.nativeRequest.sendNativeLayoutRequest(success, fail, args)|success{function}; fail{function}; args{object}|json字符串|
+<br>
 ### gome-util-nativeUtils
 
-#### navigator.gome.util.nativeUtils.getAppEnvironment
-#### navigator.gome.util.nativeUtils.isLogin
-#### navigator.gome.util.nativeUtils.jumpExternalLink
-#### navigator.gome.util.nativeUtils.showToast
-#### navigator.gome.util.nativeUtils.showTitle
+| 方法 | 参数 | 回调参数 |
+| ------- | ------- | --- |
+|navigator.gome.util.nativeUtils.isLogin(success)|success{function}|json字符串如:'{"isLogin":"Y"}'|
+|navigator.gome.util.nativeUtils.showToast(args)|args{object}|--|
+|navigator.gome.util.nativeUtils.jumpExternalLink(args)|args{object}|--|
+|navigator.gome.util.nativeUtils.showTitle(args)|args{object}|--|
+|navigator.gome.util.nativeUtils.getMeasure(args)|args{object}|--|
+|navigator.gome.util.nativeUtils.getAppEnvironment(success)|success{function}|json字符串如:'{"environment":"uat"}'|
+|navigator.gome.util.nativeUtils.getAppVersion(success)|success{function}|json字符串如:'{"dev_version": 55,"user_version":"4.1.2"}'|
