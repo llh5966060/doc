@@ -1,12 +1,15 @@
 ---
 title: HTML编码规范
+author: 赵晔
 date: 2016-02-16 18:25:36
+categories: 编码规范
 tags: 编码规范
+toc: true
 ---
 
 *本文内容基于[ecomfe(百度EFE团队)/html](https://github.com/ecomfe/spec/blob/master/html-style-guide.md)规范修改得来*
 
-## 目录
+
 
 ## 1 前言
 
